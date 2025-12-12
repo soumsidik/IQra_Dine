@@ -1,0 +1,69 @@
+{
+    "discoveries": [{
+            "id": 1,
+            "title": "L'univers en expansion",
+            "description": "La cosmologie moderne confirme la révélation coranique sur l'expansion de l'univers",
+            "imageUrl": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3",
+            "domain": "Science Moderne",
+            "surah": "Adh-Dhariyat",
+            "verse": "51:47",
+            "arabicText": "وَالسَّمَاءَ بَنَيْنَاهَا بِأَيْدٍ وَإِنَّا لَمُوسِعُونَ",
+            "timestamp": "2025-08-15T10:00:00Z"
+        },
+        {
+            "id": 2,
+            "title": "Relativité et dilatation du temps",
+            "description": "Le Coran fait allusion à la dilatation du temps, un concept confirmé plus tard par la théorie de la relativité d'Einstein",
+            "imageUrl": "https://images.pexels.com/photos/2152/sky-earth-space-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "domain": "Science Moderne",
+            "surah": "As-Sajdah",
+            "verse": "32:5",
+            "arabicText": "يُدَبِّرُ الْأَمْرَ مِنَ السَّمَاءِ إِلَى الْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِي يَوْمٍ كَانَ مِقْدَارُهُ أَلْفَ سَنَةٍ",
+            "timestamp": "2025-08-14T12:00:00Z"
+        },
+        {
+            "id": 3,
+            "title": "Les montagnes comme des piquets",
+            "description": "Le Coran décrit les montagnes comme ayant des racines profondes, une découverte géologique moderne",
+            "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3",
+            "domain": "Géologie",
+            "surah": "An-Naba",
+            "verse": "78:7",
+            "arabicText": "وَالْجِبَالَ أَوْتَادًا",
+            "timestamp": "2025-08-13T09:00:00Z"
+        },
+        {
+            "id": 4,
+            "title": "La barrière entre deux mers",
+            "description": "Description coranique de la barrière invisible entre les eaux douces et salées",
+            "imageUrl": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3",
+            "domain": "Océanologie",
+            "surah": "Ar-Rahman",
+            "verse": "55:19-20",
+            "arabicText": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+            "timestamp": "2025-08-12T15:30:00Z"
+        },
+        {
+            "id": 5,
+            "title": "Les stades de développement embryonnaire",
+            "description": "Description précise des étapes du développement embryonnaire humain dans le Coran",
+            "imageUrl": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3",
+            "domain": "Embryologie",
+            "surah": "Al-Mu'minun",
+            "verse": "23:12-14",
+            "arabicText": "وَلَقَدْ خَلَقْنَا الْإِنسَانَ مِن سُلَالَةٍ مِّن طِينٍ",
+            "timestamp": "2025-08-11T11:00:00Z"
+        },
+        {
+            "id": 6,
+            "title": "L'orbite du soleil",
+            "description": "Le Coran mentionne que le soleil se déplace dans une orbite définie",
+            "imageUrl": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3",
+            "domain": "Astronomie",
+            "surah": "Ya-Sin",
+            "verse": "36:38",
+            "arabicText": "وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَّهَا",
+            "timestamp": "2025-08-10T14:00:00Z"
+        }
+    ]
+}
