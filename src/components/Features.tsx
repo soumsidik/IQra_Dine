@@ -1,4 +1,14 @@
-import { BookOpen, Globe, MessageSquare, Heart, Star, Atom } from 'lucide-react';
+import { 
+  BookOpen, 
+  Globe, 
+  MessageSquare, 
+  Heart, 
+  Star, 
+  Atom,
+  Users,        // communauté
+  Compass,      // boussole
+  MoonStar      // prière islam
+} from 'lucide-react';
 
 const features = [
   {
@@ -32,9 +42,21 @@ const features = [
     color: 'from-emerald-500 to-teal-600',
   },
   {
-    icon: Atom,
+    icon: Users,
     title: 'Communauté Active',
     description: 'Rejoignez une communauté passionnée par la connaissance islamique et scientifique',
+    color: 'from-amber-500 to-orange-600',
+  },
+  {
+    icon: Compass,
+    title: 'Boussole Qibla',
+    description: 'Trouvez la direction de la prière avec précision et facilitez vos pratiques religieuses au quotidien.',
+    color: 'from-amber-500 to-orange-600',
+  },
+  {
+    icon: MoonStar,
+    title: 'Heures de Prière',
+    description: 'Consultez facilement les horaires précis des prières pour votre ville et ne manquez jamais un moment de dévotion.',
     color: 'from-amber-500 to-orange-600',
   },
 ];
