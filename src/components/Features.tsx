@@ -45,7 +45,7 @@ const features = [
     icon: Users,
     title: 'Communauté Active',
     description: 'Rejoignez une communauté passionnée par la connaissance islamique et scientifique',
-    color: 'from-amber-500 to-orange-600',
+    color: 'from-amber-600 to-amber-700',
   },
   {
     icon: Compass,

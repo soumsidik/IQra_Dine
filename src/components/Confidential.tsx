@@ -110,7 +110,7 @@ export default function Confidential() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-emerald-700 mb-4">8. Modifications de la Politique</h2>
+        <h2 className="text-2xl font-semibold text-emerald-700 mb-4">8. Modifications de la politique</h2>
         <p className="text-gray-700 leading-relaxed">
           Nous pouvons mettre à jour cette politique en cas d’évolution des fonctionnalités ou des réglementations. Toute modification importante sera signalée dans l’application et sur cette page avec la nouvelle date de mise à jour.
         </p>
@@ -121,7 +121,7 @@ export default function Confidential() {
         <p className="text-gray-700 leading-relaxed">
           Pour toute question relative à cette politique de confidentialité ou à vos données, veuillez nous contacter à :{' '}
           <a href="mailto:contact@iqradine.com" className="text-emerald-600 hover:underline font-medium">
-            contact@iqradine.com
+            innovtica.intello211@gmail.com
           </a>
         </p>
       </section>
