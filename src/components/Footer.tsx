@@ -39,22 +39,22 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-6 text-amber-400">Découvrir</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Accueil</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Domaines</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Découvertes</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Assistant Hafiz</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Communauté</a></li>
+              <li><a href="#home" className="text-emerald-100 hover:text-white transition-colors">Accueil</a></li>
+              <li><a href="#domains" className="text-emerald-100 hover:text-white transition-colors">Domaines</a></li>
+              <li><a href="#discoveries" className="text-emerald-100 hover:text-white transition-colors">Découvertes</a></li>
+              <li><a href="#features" className="text-emerald-100 hover:text-white transition-colors">Assistant Hafiz</a></li>
+              <li><a href="#community" className="text-emerald-100 hover:text-white transition-colors">Communauté</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-xl font-bold mb-6 text-amber-400">Ressources</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">À propos</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">FAQ</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Support</a></li>
-              <li><a href="#" className="text-emerald-100 hover:text-white transition-colors">Politique de confidentialité</a></li>
+              <li><a href="#about" className="text-emerald-100 hover:text-white transition-colors">À propos</a></li>
+              <li><a href="#blog" className="text-emerald-100 hover:text-white transition-colors">Blog</a></li>
+              <li><a href="#faq" className="text-emerald-100 hover:text-white transition-colors">FAQ</a></li>
+              <li><a href="#support" className="text-emerald-100 hover:text-white transition-colors">Support</a></li>
+              <li><a href="/confidential" className="text-emerald-100 hover:text-white transition-colors">Politique de confidentialité</a></li>
             </ul>
           </div>
 
@@ -87,9 +87,9 @@ export default function Footer() {
               © {currentYear} IQra Dine. Tous droits réservés.
             </p>
             <div className="flex flex-wrap gap-6 text-sm">
-              <a href="#" className="text-emerald-200 hover:text-white transition-colors">Conditions d'utilisation</a>
-              <a href="#" className="text-emerald-200 hover:text-white transition-colors">Mentions légales</a>
-              <a href="#" className="text-emerald-200 hover:text-white transition-colors">Cookies</a>
+              <a href="/confidential" className="text-emerald-200 hover:text-white transition-colors">Conditions d'utilisation</a>
+              <a href="/mentions-legales" className="text-emerald-200 hover:text-white transition-colors">Mentions légales</a>
+              <a href="/cookies" className="text-emerald-200 hover:text-white transition-colors">Cookies</a>
             </div>
           </div>
         </div>

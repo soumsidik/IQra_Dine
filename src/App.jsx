@@ -1,24 +1,22 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Domains from './components/Domains';
-import Discoveries from './components/Discoveries';
-import AppPreview from './components/AppPreview';
-import CommunityStats from './components/CommunityStats';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './components/Home';
+import Confidential from './components/Confidential';
+import MentionsLegales from './components/MentionsLegales';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <Hero />
-      <Features />
-      <Domains />
-      <Discoveries />
-      <AppPreview />
-      <CommunityStats />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        {/* Toutes les pages utilisent le même Layout (Header + Footer) */}
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} /> {/* Page d'accueil */}
+          <Route path="/confidential" element={<Confidential />} />
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
+          {/* Tu peux ajouter d'autres pages ici plus tard */}
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
